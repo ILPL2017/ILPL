@@ -1,0 +1,44 @@
+.results-post-container{
+    width: 49%;
+    height: 300px;
+    float: right;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.title{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.7);
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient(to bottom, #f2f2f2 0%,#cdcdcd 100%);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.results-list{
+    overflow: auto;
+    height: 100%;
+}
+
+.results-list-item-even{
+    width: 100%;
+    height: 80px;
+    background: yellowgreen;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.results-list-item-odd{
+    width: 100%;
+    height: 80px;
+    background:#006600;
+    margin-top: 10px;
+    border-radius: 5px;
+}

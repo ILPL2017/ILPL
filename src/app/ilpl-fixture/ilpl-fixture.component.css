@@ -1,0 +1,100 @@
+.fixtures-post-container{
+    width: 49%;
+    height: 300px;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.title{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.7);
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient(to bottom, #f2f2f2 0%,#cdcdcd 100%);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.fixtures-list{
+    overflow: auto;
+    height: 100%;
+}
+
+.fixtures-list-item-even{
+    width: 100%;
+    height: 80px;
+    background: yellowgreen;
+    display: flex;
+    margin-top:10px;
+    border-radius: 5px;
+}
+
+.fixtures-list-item-odd{
+    width: 100%;
+    height: 80px;
+    background:#006600;
+    display: flex;
+    margin-top:10px;
+    border-radius: 5px;
+}
+
+.fixtures-team-1{
+    width: 30%;
+    height: 100%;
+}
+
+.fixtures-team-1-logo{
+    background: url(../../assets/images/srh.jpeg) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    position: relative;
+    left: 20px;
+}
+
+.fixtures-details{
+    width:  40%;
+    height: 100%;
+}
+
+.fixtures-team-2{
+    width: 30%;
+    height: 100%;
+}
+
+.fixtures-team-2-logo{
+    background: url('../../assets/images/rcb-logo.jpeg') no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    position: relative;
+    left: 60px;
+}
+
+.fixtures-details-time{
+    width: 100%;
+    height: 25%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.fixtures-details-date{
+    width: 100%;
+    height: 25%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.fixtures-details-match{
+    width: 100%;
+    height: 48%;
+    line-height: 40px;
+    text-align: center;
+}
