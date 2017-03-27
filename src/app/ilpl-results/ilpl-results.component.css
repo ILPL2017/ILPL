@@ -3,7 +3,7 @@
     height: 300px;
     float: left;
     border-radius: 5px;
-    margin-right: 20px;
+    margin-right: 22px;
 }
 
 .title{
@@ -34,5 +34,78 @@
     margin-top: 10px;
     border-radius: 5px;
     box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-    border: 1px solid;
+    border: 1px solid #cccccc;
+    display: flex;
 }
+
+.results-team-1{
+    width: 20%;
+    height: 100%;
+    margin-top: 14px;
+    margin-left: -12px;
+    margin-right: 10px;
+}
+
+.results-team-logo{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 20px;
+}
+
+.results-team-srh{
+    background: url(../../assets/images/srh.jpeg) no-repeat;
+    background-size: contain;
+}
+
+.results-team-kkr{
+    background: url(../../assets/images/kkr.jpg) no-repeat;
+    background-size: contain;
+}
+
+.results-team-rcb{
+    background: url('../../assets/images/rcb-logo.jpeg') no-repeat;
+    background-size: contain;
+}
+
+.results-team-csk{
+    background: url('../../assets/images/csk.jpg') no-repeat;
+    background-size: contain;
+}
+
+.results-team-mi{
+    background: url('../../assets/images/mi.png') no-repeat;
+    background-size: contain;
+}
+
+.results-team-dd{
+    background: url('../../assets/images/dd.jpg') no-repeat;
+    background-size: contain;
+}
+
+.results-team-vs{
+    width: 10%;
+    height: 100%;
+    margin-left: 13px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.results-details{
+    width: 40%;
+    height: 100%;
+    margin-left: 23px;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.results-team-2{
+    width: 20%;
+    height: 100%;
+}
+
+
+
