@@ -8,6 +8,7 @@ import { RecentPostComponent } from './recent-post/recent-post.component';
 import { IlplFixtureComponent } from './ilpl-fixture/ilpl-fixture.component';
 import { IlplResultsComponent } from './ilpl-results/ilpl-results.component';
 import { SeperatorComponent } from './seperator/seperator.component';
+import { NextMatchComponent } from './next-match/next-match.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SeperatorComponent } from './seperator/seperator.component';
     RecentPostComponent,
     IlplFixtureComponent,
     IlplResultsComponent,
-    SeperatorComponent
+    SeperatorComponent,
+    NextMatchComponent
   ],
   imports: [
     BrowserModule,

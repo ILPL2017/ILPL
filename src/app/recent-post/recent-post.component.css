@@ -16,6 +16,7 @@
     background: #000000;
     padding: 12px 0px;
     opacity: 0.8;
+    border-radius: 5px;
 }
 
 .recent-post-container-description-text{

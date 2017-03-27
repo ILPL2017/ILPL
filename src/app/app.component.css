@@ -1,6 +1,6 @@
 
 .main-container{
-   background: url('../assets/images/green.jpeg');
+   /*background: url('../assets/images/green.jpeg');*/
    height: 100%;
    background-repeat: no-repeat;
    background-size: cover;
@@ -11,12 +11,41 @@
    margin-left: 150px;
    margin-right: 150px;
    font-size: 35px;
-   text-align: CENTER;
+   text-align: center;
    padding-top: 5px;
    box-sizing: border-box;
-   background: #006600;
+   background: url('../assets/images/logo.jpg') no-repeat;
    border-radius: 5px;
-   color: #cccccc;
+   color: #000000;
+   font-weight:bold;
+}
+
+.header-handles{
+    position: relative;
+    top: 18px;
+    float: right;
+    width: 60px;
+    height: 30px;
+}
+
+.header-handle-facebook{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url('../assets/images/fb.png') no-repeat;
+}
+
+.header-handle-twitter{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url('../assets/images/twitter.png') no-repeat;
+}
+.header-handle-facebook:hover,
+.header-handle-twitter:hover{
+    cursor: pointer;
 }
 
 .data-container{
@@ -40,8 +69,16 @@
     box-sizing: border-box;
     width: 20%;
     text-align: center;
-    background: linear-gradient(to bottom, #f2f2f2 0%,#cdcdcd 100%);
+    /*background: linear-gradient(to bottom, #f2f2f2 0%,#cdcdcd 100%);*/
+    background: #0080ff;
+    color: #ffffff;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 14px;
 }
+
+.navigation-item:hover{
+    cursor: pointer;
+    background: linear-gradient(to bottom, #000000 0%,#0080ff 100%);
+}
+
